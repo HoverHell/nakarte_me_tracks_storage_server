@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "nkmtss"
+version = "0.1.0"
+description = ""
+authors = ["Sergej Orlov <wladimirych@gmail.com>"]
+# readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+msgpack = "^1.0.7"
+protobuf = "^4.25.1"
+psycopg2-binary = "^2.9.9"
+waitress = "^2.1.2"
+
+[tool.poetry.group.dev.dependencies]
+types-psycopg2 = "^2.9.21.20240106"
+hydev = "^1.4.0"
+types-protobuf = "^4.24.0.20240106"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
